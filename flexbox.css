@@ -1,0 +1,32 @@
+.parent{
+    width: 1200px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 10px;
+    border-radius: 15px;
+    font-size: 80px;
+    align-content: center;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.two{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border: 10px;
+    border-radius: 15px;
+}
+.three{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 10px;
+    border-radius: 15px;
+}

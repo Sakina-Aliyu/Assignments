@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    background-color: black;
+}
+.item-a{
+    background-color: orangered;
+    grid-area: a;
+}
+.item-b{
+    background-color: yellow;
+    grid-area: b;
+}
+.item-c{
+    background-color: green;
+    grid-area: c;
+}
+.item-d{
+    background-color: blue;
+    grid-area: d;
+}
+.item-e{
+    background-color: blueviolet;
+    grid-area: e;
+}
